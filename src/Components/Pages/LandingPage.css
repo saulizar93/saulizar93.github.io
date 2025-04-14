@@ -78,7 +78,7 @@
 /* Title */
 .cursive-landing {
   font-family: 'Kunstler Script', 'Dancing Script', cursive;
-  font-size: clamp(2rem, 8rem, 12rem); /* Scales with container, with min/max */
+  font-size: 8rem;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   letter-spacing: 0.2rem;
@@ -90,7 +90,7 @@
 .wedding-details {
   max-width: 50%; /* Limits width relative to container */
   font-family: 'Dancing Script', cursive;
-  font-size: clamp(2rem, 3.5rem, 8rem); /* Scales with container */
+  font-size: 3.5rem;
   margin-top: auto;
 }
 

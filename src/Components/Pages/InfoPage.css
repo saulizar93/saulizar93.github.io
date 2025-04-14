@@ -42,7 +42,7 @@
 }
 
 .save-the-date {
-  font-size: clamp(2rem, 5rem, 8rem);
+  font-size: 5rem;
   font-family: 'Dancing Script', 'Cedarville Cursive','Kunstler Script',  'Freestyle Script';
   color: #2f734c;
   margin-top:0rem;
@@ -52,7 +52,7 @@
 
 .date {
   color: #2f734c;
-  font-size: clamp(1rem, 2.3rem, 6rem);
+  font-size: 2.3rem;
 }
 
 .invite-date{
@@ -191,7 +191,7 @@
   }
   .save-the-date {
     margin-top: 30%;
-    font-size: clamp(2rem, 3rem, 5rem);
+    font-size: 3rem;
   }
   .invite-section {
     font-size: 1rem;

@@ -45,7 +45,7 @@
   font-family: 'Kunstler Script', cursive;
   color: #2f734c;
   font-style: bold;
-  font-size: clamp(2rem, 8rem, 12rem); /* Scales with container, with min/max */
+  font-size: 8rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   letter-spacing: 0.2rem;
   margin: 10% 0 0 0; /* Top margin as percentage of container */
@@ -55,7 +55,7 @@
 .cursive-p {
   color: #2f734c;
   font-family: 'Kunstler Script', cursive;
-  font-size: clamp(1rem, 3rem, 5rem);
+  font-size: 3rem;
   letter-spacing: 0.1rem;
   width: 50%;
 }
@@ -83,7 +83,7 @@
   }
 
   .cursive-p {
-    font-size: clamp(1rem, 2rem, 3rem);
+    font-size: 2rem;
     width: 80%;
     margin-top: 15%;
   }
