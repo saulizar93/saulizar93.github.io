@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63a776c5.css",
+    "main.js": "/static/js/main.6de52b03.js",
+    "static/js/453.de9d5605.chunk.js": "/static/js/453.de9d5605.chunk.js",
+    "static/media/S&L-103.jpg": "/static/media/S&L-103.0843d305958c3cd2d0b7.jpg",
+    "static/media/S&L-106.jpg": "/static/media/S&L-106.1f3c692ae34654111202.jpg",
+    "static/media/S&L-56.jpg": "/static/media/S&L-56.4d14c4b4a37a297048a7.jpg",
+    "static/media/S&L-46.jpg": "/static/media/S&L-46.31fd9223715db117fb1a.jpg",
+    "static/media/ThoseEyes.mp3": "/static/media/ThoseEyes.73ed324ec166f4631a7c.mp3",
+    "static/media/Anton-Regular.ttf": "/static/media/Anton-Regular.170b842f9a8cd6150a0d.ttf",
+    "static/media/DancingScript-VariableFont_wght.ttf": "/static/media/DancingScript-VariableFont_wght.d02a1ee17643667e9808.ttf",
+    "static/media/hoja_fondo2.jpg": "/static/media/hoja_fondo2.ba1ebedacb1e2ca093b8.jpg",
+    "static/media/FREESCPT.TTF": "/static/media/FREESCPT.66481f539db7e51d22d9.TTF",
+    "static/media/CedarvilleCursive-Regular.ttf": "/static/media/CedarvilleCursive-Regular.a669593f51bb81ad0cc1.ttf",
+    "static/media/KUNSTLER.TTF": "/static/media/KUNSTLER.a16836b3ecd6fd5f65cc.TTF",
+    "static/media/hojas_fondo.jpg": "/static/media/hojas_fondo.f9d53a59c229897afcd1.jpg",
+    "index.html": "/index.html",
+    "main.63a776c5.css.map": "/static/css/main.63a776c5.css.map",
+    "main.6de52b03.js.map": "/static/js/main.6de52b03.js.map",
+    "453.de9d5605.chunk.js.map": "/static/js/453.de9d5605.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63a776c5.css",
+    "static/js/main.6de52b03.js"
+  ]
+}

@@ -1,0 +1,232 @@
+/* Book page background */
+.book-page {
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f1e9; /* Off-white, like aged paper */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw; /* Scales with viewport width */
+  box-sizing: border-box;
+}
+
+/* Photo container */
+.info-container {
+  display: flex;
+  flex-direction: column; /* Stack title and details vertically */
+  justify-content: flex-start; /* Start from top */
+  align-items: center; /* Center horizontally */
+  height: 100%; /* Fits within book-page padding */
+  width: 100%;
+  background-image: url('../../Assets/Images/hoja_fondo2.jpg');
+  background-size: cover; /* Or 'contain' if preferred */
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Prevents content from spilling out */
+}
+
+.notice-content {
+  text-align: center;
+  color: black;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  margin-top: -2rem;
+}
+
+.save-the-date {
+  font-size: 5rem;
+  font-family: 'Dancing Script', 'Cedarville Cursive','Kunstler Script',  'Freestyle Script';
+  color: #2f734c;
+  margin-top:0rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.date {
+  color: #2f734c;
+  font-size: 2.3rem;
+}
+
+.invite-date{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #2f734c;
+}
+
+.invite-day{
+  font-size: 1.5rem;
+}
+
+.invite-number{
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.invite-month-year{
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.invite-details{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 0;
+  color: #2f734c;
+}
+
+.invite-section {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0 3rem;
+  position: relative;
+}
+
+.invite-section:not(:first-child) {
+  border-left: 2px solid #ccc;
+}
+
+.section-title{
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+
+.highlight {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.countdown-title{
+  font-size: 2rem;
+  font-family: 'Dancing Script';
+  color: #2f734c;
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+
+.countdown-box {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0rem 0;
+}
+
+.countdown-item {
+  text-align: center;
+}
+
+.countdown-circle {
+  /* background-color: #ffffffcc;  */
+  padding: 0.1rem;
+  border-radius: 1rem; /* more rounded for digital look */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  */
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-number {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #2f734c;
+  /* font-family: 'Anton','Courier New', Courier, monospace; */
+}
+
+.countdown-label {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.closing-text {
+  margin-top: 0rem;
+  font-size: 4rem;
+  font-family: 'Kunstler Script', cursive;
+  color: #2f734c;
+}
+
+.farewell{
+  font-size: 1.5rem;
+  font-family: 'Dancing Script','Kunstler Script';
+  color: #2f734c;
+}
+
+.vestimenta-message {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem;
+  font-size: 0.9rem;
+  color: #2f734c;
+  opacity: 0.8;
+}
+
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+  .notice-content{
+    margin-top: 0rem;
+  }
+  .save-the-date {
+    margin-top: 30%;
+    font-size: 3rem;
+  }
+  .invite-section {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .countdown-title{
+    margin-top:5%;
+  }
+
+  .countdown-box {
+    gap: 0rem;
+    margin: 1rem 0;
+  }
+
+  .countdown-number {
+    font-size: 3rem;
+  }
+  
+  .countdown-label {
+    font-size: 1rem;
+  }
+
+  .countdown-circle {
+    padding: 0rem;
+    min-width: 7rem;
+  }
+
+  .closing-text{
+    margin-top: 5%;
+    font-size: 3rem;
+  }
+  
+  .farewell{
+    max-width: 70%;
+  }
+
+}
