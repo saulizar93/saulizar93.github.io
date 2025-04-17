@@ -61,6 +61,11 @@
 }
 
 /* Mobile responsiveness */
+@media (max-width: 1550px){
+  .cursive-title{
+    font-size: 5rem;
+  }
+}
 @media (max-width: 768px) {
   .book-page {
     padding: 3vw; /* Smaller padding on mobile */
@@ -86,5 +91,13 @@
     font-size: 2rem;
     width: 80%;
     margin-top: 15%;
+  }
+}
+
+@media (max-width: 400px) {
+  .cursive-p {
+    font-size: 2rem;
+    width: 80%;
+    margin-top: 10%;
   }
 }

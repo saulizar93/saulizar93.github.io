@@ -181,13 +181,68 @@
   opacity: 0.8;
 }
 
+@media (max-width: 1550px){
+  .notice-content{
+    /* margin-top: 0rem; */
+  }
+  .invite-date{
+    /* gap: 20px; */
+  }
+  .save-the-date {
+    /* margin-top: 30%;
+    font-size: 3rem; */
+    font-size: 3rem;
+  }
+  .invite-section {
+    /* font-size: 1rem;
+    padding: 0 1rem; */
+    font-size: 0.8rem;
+  }
 
+  .countdown-title{
+    /* margin-top:5%; */
+  }
+
+  .countdown-box {
+    /* gap: 0rem;
+    margin: 1rem 0; */
+  }
+
+  .countdown-number {
+    /* font-size: 3rem; */
+    font-size: 3rem;
+  }
+  
+  .countdown-label {
+    /* font-size: 1rem; */
+    font-size: 1rem;
+  }
+
+  .countdown-circle {
+    /* padding: 0rem;
+    min-width: 7rem; */
+  }
+  
+  .farewell{
+    /* font-size: 1.2rem;
+    max-width: 70%;
+    margin-top: 5%; */
+  }
+
+  .closing-text{
+    /* margin-top: 2%;
+    font-size: 3rem; */
+  }
+}
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
 
   .notice-content{
     margin-top: 0rem;
+  }
+  .invite-date{
+    gap: 20px;
   }
   .save-the-date {
     margin-top: 30%;
@@ -219,14 +274,57 @@
     padding: 0rem;
     min-width: 7rem;
   }
-
-  .closing-text{
-    margin-top: 5%;
-    font-size: 3rem;
-  }
   
   .farewell{
+    font-size: 1.2rem;
     max-width: 70%;
+    margin-top: 5%;
   }
 
+  .closing-text{
+    margin-top: 2%;
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .save-the-date {
+    font-size: 2rem;
+  }
+
+  .countdown-title{
+    font-size:1.8rem;
+  }
+
+  .countdown-box {
+    gap: 0rem;
+  }
+
+  .countdown-circle{
+    min-width: 5rem;
+  }
+
+  .countdown-number {
+    font-size: 2.2rem;
+  }
+  
+  .countdown-label {
+    font-size: 0.8rem;
+  }
+
+  .invite-section {
+    font-size: 0.8rem;
+  }
+
+  
+  
+  .farewell{
+    font-size: 1rem;
+  }
+
+  .closing-text{
+    font-size: 2rem;
+  }
 }

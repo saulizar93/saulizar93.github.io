@@ -46,10 +46,16 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  */
 }
 
-@media (max-width: 1550px){
+@media (max-width: 1550px) {
+  .luz-message {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px){
   
   .luz-message{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     width: 60vw;
     max-width: none;
     line-height: 1.4rem;
@@ -69,4 +75,11 @@
     box-shadow: none; */
   }
   
+}
+
+@media (max-width: 400px){
+  .luz-message {
+    font-size: 1rem;
+  }
+
 }
