@@ -60,44 +60,134 @@
   width: 50%;
 }
 
+.cursive-p2 {
+  color: #2f734c;
+  font-family: 'Kunstler Script', cursive;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  width: 50%;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 1550px){
   .cursive-title{
     font-size: 5rem;
   }
+  
+  .cursive-p {
+    font-size: 2.5rem;
+  }
+
+  .cursive-p2{
+    font-size: 2.5rem;
+  }
 }
-@media (max-width: 768px) {
+
+@media(max-width: 1200px){
+  .cursive-title{
+    font-size: 6rem;
+    margin-top: 30%;
+  }
+
+  .cursive-p{
+    font-size: 4rem;
+    width: 60%;
+  }
+
+  .cursive-p2{
+    font-size: 4rem;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
   .book-page {
-    padding: 3vw; /* Smaller padding on mobile */
+    padding: 3vw; 
+  }
+
+  .notice-container{
   }
 
   .cursive-title {
-    font-size: 3rem; /* Adjusted for smaller screens */
-    margin-top: 45%;
-  }
-
-  .wedding-details {
-    padding: 3%;
-    max-width: 70%; /* Wider on smaller screens */
-    font-size: 2.2rem;
-    margin-top: 15%; /* More space on smaller screens */
-  }
-
-  .wedding-details p {
-    margin: 1.5% 0;
+    font-size: 6rem; 
+    margin-top: 35%;
   }
 
   .cursive-p {
-    font-size: 2rem;
+    font-size: 4rem;
     width: 80%;
-    margin-top: 15%;
+    margin-top: 10%;
+  }
+
+  .cursive-p2 {
+    font-size: 4rem;
   }
 }
 
-@media (max-width: 400px) {
+
+@media(max-width: 830px){
+  .cursive-title{
+    margin-top: 35%;
+  }
+
+  .cursive-p{
+    font-size: 3rem;
+  }
+
+  .cursive-p2{
+    font-size: 3rem;
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .cursive-title{
+    font-size: 3rem;
+    margin-top: 30%;
+  }
   .cursive-p {
     font-size: 2rem;
     width: 80%;
     margin-top: 10%;
+  }
+
+  .cursive-p2{
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .cursive-title{
+    font-size: 3rem;
+    margin-top: 50%;
+  }
+  .cursive-p {
+    font-size: 2rem;
+    width: 80%;
+    margin-top: 10%;
+  }
+
+  .cursive-p2{
+    font-size: 2rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .cursive-title{
+    font-size: 2.5rem;
+    margin-top: 50%;
+  }
+  .cursive-p {
+    font-size: 1.5rem;
+    width: 80%;
+    margin-top: 10%;
+    line-height: 2rem;
+  }
+
+  .cursive-p2{
+    font-size: 1.5rem;
+    width: 100%;
   }
 }

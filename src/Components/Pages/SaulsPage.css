@@ -58,7 +58,41 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .message {
+    font-size: 2rem;
+    max-width: none;
+    width: 60%;
+    line-height: 3rem;
+  }
+
+  .message p {
+    margin: 0.8rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .message {
+    max-width: 60%;
+    font-size: 2rem;
+    margin-top: 0%;
+    margin-left: 0;
+    line-height:2rem;
+  }
+
+  .message p {
+    margin: 0.8rem;
+  }
+}
+
+@media (max-width: 800px){
+  .message{
+    font-size:1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
   .message {
     max-width: 60%;
     font-size: 1.2rem;
@@ -72,9 +106,20 @@
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 420px){
   .message {
     font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+}
+
+@media (max-width: 380px){
+  .message {
+    font-size: 1rem;
+    max-width: none;
+    width: 80%;
+    line-height: 1rem;
   }
 
 }

@@ -13,7 +13,7 @@ const NoticePage = () => {
             personas como tú, se convierten en recuerdos 
             imposibles de olvidar.
           </p>
-          <p className="cursive-p">
+          <p className="cursive-p2">
             Esta es nuestra historia...
           </p>
         </div>
