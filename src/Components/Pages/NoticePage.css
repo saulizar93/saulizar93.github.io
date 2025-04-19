@@ -71,31 +71,32 @@
 /* Mobile responsiveness */
 @media (max-width: 1550px){
   .cursive-title{
-    font-size: 5rem;
+    font-size: 4rem;
+    margin-top: 10%;
   }
   
   .cursive-p {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .cursive-p2{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 }
 
 @media(max-width: 1200px){
   .cursive-title{
-    font-size: 6rem;
+    font-size: 5rem;
     margin-top: 30%;
   }
 
   .cursive-p{
-    font-size: 4rem;
+    font-size: 3rem;
     width: 60%;
   }
 
   .cursive-p2{
-    font-size: 4rem;
+    font-size: 3rem;
     width: 80%;
   }
 }
@@ -109,18 +110,18 @@
   }
 
   .cursive-title {
-    font-size: 6rem; 
+    font-size: 5rem; 
     margin-top: 35%;
   }
 
   .cursive-p {
-    font-size: 4rem;
+    font-size: 3rem;
     width: 80%;
     margin-top: 10%;
   }
 
   .cursive-p2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
@@ -128,14 +129,15 @@
 @media(max-width: 830px){
   .cursive-title{
     margin-top: 35%;
+    font-size: 4rem;
   }
 
   .cursive-p{
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
 
   .cursive-p2{
-    font-size: 3rem;
+    font-size: 2.3rem;
     width: 80%;
   }
 }
@@ -146,13 +148,13 @@
     margin-top: 30%;
   }
   .cursive-p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 80%;
     margin-top: 10%;
   }
 
   .cursive-p2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 100%;
   }
 }
@@ -163,31 +165,31 @@
     margin-top: 50%;
   }
   .cursive-p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     width: 80%;
     margin-top: 10%;
   }
 
   .cursive-p2{
-    font-size: 2rem;
+    font-size: 1.6rem;
     width: 100%;
   }
 }
 
 @media (max-width: 380px) {
   .cursive-title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 50%;
   }
   .cursive-p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 80%;
     margin-top: 10%;
     line-height: 2rem;
   }
 
   .cursive-p2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 100%;
   }
 }
