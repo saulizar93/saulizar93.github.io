@@ -117,7 +117,7 @@
 
 }
 
-@media (max-width: 380px){
+@media (max-width: 390px){
   .message {
     font-size: 1rem;
     max-width: none;
