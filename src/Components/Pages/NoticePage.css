@@ -42,7 +42,7 @@
 }
 
 .cursive-title {
-  font-family: 'Kunstler Script', cursive;
+  font-family: 'Great Vibes','Kunstler Script','Dancing Script', cursive;
   color: #2f734c;
   font-style: bold;
   font-size: 8rem;
@@ -54,7 +54,7 @@
 
 .cursive-p {
   color: #2f734c;
-  font-family: 'Kunstler Script', cursive;
+  font-family: 'Great Vibes','Kunstler Script','Dancing Script', cursive;
   font-size: 3rem;
   letter-spacing: 0.1rem;
   width: 50%;
@@ -62,7 +62,7 @@
 
 .cursive-p2 {
   color: #2f734c;
-  font-family: 'Kunstler Script', cursive;
+  font-family: 'Great Vibes','Kunstler Script','Dancing Script', cursive;
   font-size: 3rem;
   letter-spacing: 0.1rem;
   width: 50%;

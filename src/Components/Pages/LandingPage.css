@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'Great Vibes';
+  src: url('../../Assets/Fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Dancing Script';
   src: url('../../Assets/Fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
