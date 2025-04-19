@@ -45,7 +45,7 @@ const InfoPage = () => {
           
           <div className="invite-details">
             <div className="invite-section">
-              <div className="section-title">Direccion:</div>
+              <div className="section-title">Dirección:</div>
               <div>Guanábana 59</div>
               <div>Las Huertas 4ta secc.</div>
               <div>C.P. 22117</div>
@@ -53,7 +53,7 @@ const InfoPage = () => {
 
             <div className="invite-section">
               <div className="section-title">Horario:</div>
-              <div>Recepcion: 7:00PM</div>
+              <div>Recepción: 7:00PM</div>
               <div>Cena: 8:30PM</div>
             </div>
           </div>

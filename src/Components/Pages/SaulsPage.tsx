@@ -13,7 +13,7 @@ const SaulsPage = () => {
             Mi camino me alejó por muchos años - estudié, serví, y crecí. 
           </p>
           <p>
-            La vida me trajo de vuelta, y allí estaba ella, el destino esperando pacientemente unirse al mío.
+            La vida me trajo de vuelta, y ahí estaba ella, el destino esperando pacientemente unirse al mío.
 
           </p>
         </div>
